@@ -33,3 +33,7 @@
 .confirm{
     margin: .5em;
 }
+
+.inactive{
+    display: none;
+}

@@ -13,23 +13,30 @@
     <main>
         <section class="container">
             <h1 class="title">Área de cadastro</h1>
-            <h2 class="subtitlegit">Para se cadastrar é fácil! Basta inserir seu e-mail e criar uma senha!</h2>
+            <h2 class="subtitle">Para se cadastrar é fácil! Basta inserir seu e-mail e criar uma senha!</h2>
             <div class="register--box">
                 <div class="form-floating mb-3 input">
-                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" data-email>
                     <label for="floatingInput">Endereço de e-mail</label>
                 </div>
                 <div class="form-floating input">
-                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                    <input type="password" class="form-control" id="floatingPasswordOne" placeholder="Password" data-password="first-input">
                     <label for="floatingPassword">Senha</label>
                     </div>
                 <div class="form-floating input">
-                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                    <input type="password" class="form-control" id="floatingPasswordTwo" placeholder="Password" data-password="confirmation">
                     <label for="floatingPassword">Confirmação de senha</label>
                 </div>
-                <button type="button" class="btn btn-primary confirm">Confirmar cadastro</button>
+                <button type="button" class="btn btn-primary confirm" data-button>Confirmar cadastro</button>
+                <div class="alert alert-success inactive" role="alert" data-warning="success">
+                    Usuário cadastrado com sucesso!
+                </div>
+                <div class="alert alert-danger inactive" role="alert" data-warning="failed">
+                    As senhas digitadas acima não são iguais!
+                </div>
             </div>
         </section>
     </main>
+    <script type="module" src="../registerArea/registerPage.js"></script>
 </body>
 </html>
