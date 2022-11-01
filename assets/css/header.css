@@ -44,8 +44,8 @@ nav ul li:last-child a {
     padding: .6em 1.5em;
     border-radius: 7px;
     font-size: 1.2rem;
-    color: #FFF;
-    background: #90C7C9;
+    background-color: #d885b1;
+    color: white;
 }
 
 nav ul li:last-child a:hover {
@@ -57,6 +57,7 @@ nav a {
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
     color: #000;
+
 
 }
 
@@ -79,10 +80,14 @@ header div {
     align-items: flex-end;
     width: 100%;
     height: 80%;
-    padding-left: 30%;
+    padding-left: 35%;
     padding-bottom: 8em;
-    background: #303E96;
+    /* background: #303E96; */
     border-radius: 30px;
+
+    background-color: #d885b1;
+
+    
 }
 
 /* Serviços */

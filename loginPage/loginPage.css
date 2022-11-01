@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
 
-.container{
+.container {
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -10,21 +10,46 @@
     width: 100vw;
 }
 
-.title{
+.pink{
+    background-color: #d885b1;
+    color: white;
+}
+
+
+.title {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.7em;
 }
 
-.login--box{
+.login--box {
     font-family: 'Montserrat', sans-serif;
     font-size: .9em;
-    width: 60%;
+    width: 40%;
 }
 
-.login{
-    margin: .5em 0 .5em 0;
+.login {
+    margin: 1.5em 0 .5em 0;
 }
 
-.inactive{
+.situation{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pss {
+    font-size: 1rem;
+    font-weight: 500;
+   
+}
+
+.cad a {
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+
+.inactive {
     display: none;
+    margin-top: 0.55rem;
 }

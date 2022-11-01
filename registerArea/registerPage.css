@@ -10,20 +10,33 @@
     width: 100vw;
 }
 
+.pink{
+    background-color: #d885b1;
+    color: white;
+}
+
 .title{
     font-family: 'Montserrat', sans-serif;
     font-size: 1.7em;
+
 }
 
 .subtitle{
     font-family: 'Montserrat', sans-serif;
     font-size: 1em;
+
+    /* background-color: rebeccapurple; */
+    width: 40%;
+    text-align: center;
+    margin: 1rem 0;
 }
 
 .register--box{
     font-family: 'Montserrat', sans-serif;
     font-size: .9em;
-    width: 60%;
+    /* width: 60%; */
+    width: 40%;
+
 }
 
 .input{
