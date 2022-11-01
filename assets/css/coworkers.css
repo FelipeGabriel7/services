@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+
+.coworkers{
+    align-items: center;
+    height: 40vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.coworkers__title{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    width: 100%;
+}
+
+.coworkers__box{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    margin: 2rem;
+    overflow: hidden;
+    width: 17%;
+}
+
+.box__img{
+    border-radius: 5px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.coworkers__box__name{
+    font-family: 'Montserrat', sans-serif;
+    margin: .5em 0 .5em 0;
+}
