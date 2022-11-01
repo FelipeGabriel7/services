@@ -1,12 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/header.css" />
     <title>Document</title>
 </head>
+
 <body>
-    
+    <!-- Aqui é a header, também home.  Como o que era pra ser a Home 
+        é praticamente só um banner, deixei a header como section home -->
+    <header id="home">
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#">Quem Somos</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li><a href="./registerArea/registerPage.html">Login</a></li>
+            </ul>
+        </nav>
+        <div class="banner">
+            <img src="./assets/images/teacup.png" alt="xícara de chá">
+        </div>
+    </header>
+    <!-- Aqui começa a área de serviços. Aqui ficará o carrossel e a área de produtos -->
+    <section id="servicos">
+        <h2>Produtos</h2>
+        <div class="carousel-wrap">
+            <div class="carousel-items-wrap">
+                <div class="carousel-item">
+                    <div class="img-wrap">
+                        <img src="./assets/images/marriage.png" alt="casamento">
+                    </div>
+                    <h4>Casamento</h4>
+                </div>
+                <div class="carousel-item">
+                    <div class="img-wrap">
+                        <img src="./assets/images/birthdaycake.png" alt="bolo de aniversário">
+                    </div>
+                    <h4>Aniversário</h4>
+                </div>
+                <div class="carousel-item">
+                    <div class="img-wrap">
+                        <img src="./assets/images/teaparty.png" alt="Festá de Chá">
+                    </div>
+                    <h4>Chá</h4>
+                </div>
+                <div class="carousel-item">
+                    <div class="img-wrap">
+                        <img src="./assets/images/diversity.png" alt="diversos">
+                    </div>
+                    <h4>Diversos</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- // -->
+
+    <!-- A parte de contatos e footer. -->
+    <footer id="contato">
+        <h2>Quem<br>Somos</h2>
+        <div class="creators">
+            <p>Главная</p>
+            <p>Друзья</p>
+            <p>О сервисе</p>
+            <p>Контакты</p>
+        </div>
+        <h3>+385 35-23-34-45-99</h3>
+    </footer>
+
 </body>
+
 </html>
