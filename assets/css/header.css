@@ -90,4 +90,27 @@ header div {
     
 }
 
+
+/* botao login */
+
+
+.logged{
+   display: flex;
+   padding: 1rem;
+   font-weight: bold;
+   align-items: center;
+   gap: 1.5rem;
+}
+
+.logged button{
+    width: 100%;
+    background: #f14c;
+    color: #fff;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+}
+
 /* Serviços */

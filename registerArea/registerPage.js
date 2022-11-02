@@ -11,7 +11,7 @@ function AddUser(){
 
   register.addEventListener('click' , () => {
 
-    if(userLogin.name === nameI.value || password.value === userLogin.password){
+    if(userLogin){
       error.innerHTML = " Usuário já existe";
       error.classList.remove('inactive')
       return;
