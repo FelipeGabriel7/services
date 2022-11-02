@@ -10,36 +10,33 @@
     <link rel="stylesheet" href="../registerArea/registerPage.css">
 </head>
 <body>
-    
     <main>
-        <section class="container">
+        <form class="container-fluid d-flex flex-column justify-content-center align-items-center mt-5 gap-3 text-center form-rgister">
             <h1 class="title">Área de cadastro</h1>
             <h2 class="subtitle">Para se cadastrar é fácil! Basta inserir seu e-mail e criar uma senha!</h2>
+            <span class="error inactive"></span>
+            <span class="sucess-message inactive"></span>
             <div class="register--box">
                 <div class="form-floating mb-3 input">
-                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" data-email>
+                    <input type="text" class="form-control name" required id="floatingInput" placeholder="name" >
+                    <label for="floatingInput"> Nome </label>
+                </div>
+                <div class="form-floating mb-3 input">
+                    <input type="email" class="form-control email" id="floatingInput" required placeholder="name@example.com" >
                     <label for="floatingInput">Endereço de e-mail</label>
                 </div>
                 <div class="form-floating input">
-                    <input type="password" class="form-control" id="floatingPasswordOne" placeholder="Password" data-password="first-input">
+                    <input type="password" class="form-control password" id="floatingPasswordOne" required placeholder="Password" >
                     <label for="floatingPassword">Senha</label>
                     </div>
                 <div class="form-floating input">
-                    <input type="password" class="form-control" id="floatingPasswordTwo" placeholder="Password" data-password="confirmation">
+                    <input type="password" class="form-control confirm-password" id="floatingPasswordTwo" required placeholder="Password" >
                     <label for="floatingPassword">Confirmação de senha</label>
                 </div>
-                <button type="button" class="btn pink confirm" data-button>Confirmar cadastro</button>
-                <div class="alert alert-success inactive" role="alert" data-warning="success">
-                    Usuário cadastrado com sucesso!
-                </div>
-                <div class="alert alert-danger inactive" role="alert" data-warning="failed">
-                    As senhas digitadas acima não são iguais!
-                </div>
-                <div class="alert alert-danger inactive" role="alert" data-warning="missing-email">
-                    Todos os campos devem ser preenchidos!
-                </div>
+                <button type="button" class="btn btn-primary confirm btn-register">Confirmar cadastro</button>
+                <a class="btn btn-success confirm" href="../Login/login.html"> Realizar Login </a>
             </div>
-        </section>
+        </form>
     </main>
     <script type="module" src="../registerArea/registerPage.js"></script>
 </body>
